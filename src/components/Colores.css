@@ -1,0 +1,21 @@
+.colores-container {
+    padding: 20px;
+  }
+  
+  .jumbotron {
+    background-color: #f8f9fa;
+    padding: 2rem 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .video-section,
+  .teoria-section,
+  .carousel-section {
+    margin-bottom: 20px;
+  }
+  
+  .carousel img {
+    max-height: 400px; /* Ajusta este valor según sea necesario */
+    object-fit: contain;
+  }
+  

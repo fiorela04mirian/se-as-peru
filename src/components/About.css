@@ -1,0 +1,115 @@
+.about-container {
+    padding: 50px 0;
+  }
+  
+  .jumbotron {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .jumbotron h1 {
+    font-size: 2.5rem;
+  }
+  
+  .jumbotron p {
+    font-size: 1.1rem;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .card-text {
+    font-size: 1.1rem;
+  }
+  
+  .card-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .carousel {
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .col-md-6 {
+      text-align: center;
+    }
+  }
+  
+
+  .features-title {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #333;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    opacity: 0.8;
+  }
+  
+  .card {
+    background-color: #f8f9fa;
+    border: none;
+    margin: 0 auto; /* Centra horizontalmente las cartas */
+    width: 80%; /* Ancho de las cartas */
+  }
+  
+  .card-body {
+    color: #333;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1.1rem;
+  }
+  
+  .card-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+ 
+  
+  .jumbotron h1,
+  .jumbotron p {
+    text-align: center;
+  }
+  
+  .jumbotron hr {
+    background-color: #fff;
+    margin: 1rem auto;
+    width: 50%;
+  }
+  
+  .about-container {
+    padding-bottom: 3rem;
+  }
+  
+  /* Estilos adicionales según necesidades */
+  
