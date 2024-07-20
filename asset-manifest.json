@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/se-as-peru/static/css/main.6a6dd326.css",
+    "main.js": "/se-as-peru/static/js/main.172ffd47.js",
+    "static/media/56.png": "/se-as-peru/static/media/56.122aed87f39f1aa07585.png",
+    "static/media/92.png": "/se-as-peru/static/media/92.7a4f98f4a7330a1e24e6.png",
+    "static/media/yellow.jpg": "/se-as-peru/static/media/yellow.4dd6b380e9a11fa1ab7d.jpg",
+    "static/media/red.jpg": "/se-as-peru/static/media/red.c3857211ca4860de9bdb.jpg",
+    "static/media/orange.jpg": "/se-as-peru/static/media/orange.a015af9e98de82bc139b.jpg",
+    "index.html": "/se-as-peru/index.html",
+    "main.6a6dd326.css.map": "/se-as-peru/static/css/main.6a6dd326.css.map",
+    "main.172ffd47.js.map": "/se-as-peru/static/js/main.172ffd47.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a6dd326.css",
+    "static/js/main.172ffd47.js"
+  ]
+}
