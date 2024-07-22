@@ -16,6 +16,13 @@ import Header from "./components/Header";
 import RelacionesFamiliares from "./components/RelacionesFamiliares";
 import PrendasVestir from "./components/PrendasVestir";
 import CuerpoHumano from "./components/CuerpoHumano";
+import Frutas from "./components/Frutas";
+import Bebidas from "./components/Bebidas";
+import Pronombres from "./components/Pronombres";
+import Profesiones from "./components/Profesiones";
+import Preguntas from "./components/Preguntas";
+import Verduras from "./components/Verduras";
+import Adverbios from "./components/Adverbios";
 import "./App.css";
 
 function App() {
@@ -43,7 +50,8 @@ function App() {
         <Header toggleTheme={toggleTheme} darkMode={darkMode} />
         <main>
           <Switch>
-            <Route exact path="/" component={Home} />
+            <Route path="/se-as-peru" component={Home} />
+            <Route exact path="/home" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/learn" component={Learn} />
             <Route path="/abecedario" component={Abecedario} />
@@ -55,8 +63,15 @@ function App() {
               component={RelacionesFamiliares}
             />
             <Route path="/prendasvestir" component={PrendasVestir} />
+            <Route path="/frutas" component={Frutas} />
+            <Route path="/bebidas" component={Bebidas} />
             <Route path="/cuerpohumano" component={CuerpoHumano} />
+            <Route path="/preguntas" component={Preguntas} />
+            <Route path="/profesiones" component={Profesiones} />
+            <Route path="/verduras" component={Verduras} />
+            <Route path="/pronombres" component={Pronombres} />
             <Route path="/traductor" component={Traductor} />
+            <Route path="/adverbios" component={Adverbios} />
             <Route path="/memory-game" component={MemoryGame} />
             <Route path="/contact" component={Contact} />
             <Route path="/register" component={Register} />

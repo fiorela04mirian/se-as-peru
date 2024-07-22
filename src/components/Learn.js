@@ -13,16 +13,7 @@ const categories = [
     description: "Conoce el abecedario en lenguaje de señas.",
     route: "/abecedario",
   },
-  {
-    name: "Teoría",
-    description: "Explora la teoría detrás del lenguaje de señas.",
-    route: "/teoria",
-  },
-  {
-    name: "Colores",
-    description: "Descubre los colores en lenguaje de señas.",
-    route: "/colores",
-  },
+
   {
     name: "Traductor",
     description: "Utiliza nuestro traductor de señas.",
@@ -48,11 +39,7 @@ const categories = [
     description: "Conoce las señas de prendas de vestir y accesorios.",
     route: "/prendasvestir",
   },
-  {
-    name: "Alimentos",
-    description: "Descubre las señas de los alimentos.",
-    route: "/alimentos",
-  },
+
   {
     name: "Frutas",
     description: "Señas de diversas frutas.",
@@ -71,7 +58,7 @@ const categories = [
   {
     name: "Adverbios y preposiciones",
     description: "Explora las señas de adverbios y preposiciones.",
-    route: "/adverbios-preposiciones",
+    route: "/adverbios",
   },
   {
     name: "Preguntas",
@@ -81,67 +68,19 @@ const categories = [
   {
     name: "Pronombres personales y signos gramaticales",
     description: "Señas de pronombres personales y signos gramaticales.",
-    route: "/pronombres-personales",
+    route: "/pronombres",
   },
-  {
-    name: "Verbos",
-    description: "Conoce las señas de los verbos.",
-    route: "/verbos",
-  },
-  {
-    name: "Adjetivos",
-    description: "Aprende las señas de los adjetivos.",
-    route: "/adjetivos",
-  },
-  {
-    name: "Animales",
-    description: "Señas de diferentes animales.",
-    route: "/animales",
-  },
-  {
-    name: "Juegos y deportes",
-    description: "Explora las señas de juegos y deportes.",
-    route: "/juegos-deportes",
-  },
+
   {
     name: "Profesiones y oficios",
     description: "Aprende las señas de diversas profesiones y oficios.",
     route: "/profesiones",
   },
+
   {
-    name: "Países y lugares",
-    description: "Señas de países y lugares.",
-    route: "/paises-lugares",
-  },
-  {
-    name: "Religión",
-    description: "Conoce las señas relacionadas con la religión.",
-    route: "/religion",
-  },
-  {
-    name: "Ambientes de la casa y artículos del hogar",
-    description: "Señas de ambientes de la casa y artículos del hogar.",
-    route: "/ambientes-casa",
-  },
-  {
-    name: "Nociones temporales",
-    description: "Aprende las señas de nociones temporales.",
-    route: "/nociones-temporales",
-  },
-  {
-    name: "Naturaleza",
-    description: "Señas relacionadas con la naturaleza.",
-    route: "/naturaleza",
-  },
-  {
-    name: "Colegio y colores",
-    description: "Conoce las señas del colegio y colores.",
-    route: "/colegio-colores",
-  },
-  {
-    name: "Señas de informática (Nivel Básico)",
-    description: "Aprende las señas de informática (nivel básico).",
-    route: "/senas-informatica",
+    name: "Colores",
+    description: "Descubre los colores en lenguaje de señas.",
+    route: "/colores",
   },
 ];
 
