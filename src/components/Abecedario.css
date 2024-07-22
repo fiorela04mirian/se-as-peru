@@ -1,22 +1,63 @@
+/* src/components/Abecedario.css */
 .learn-container {
-  padding: 20px;
+  padding: 40px 20px;
+  background-color: #f8f9fa; /* Color de fondo claro */
 }
 
-.jumbotron {
-  background-color: #f8f9fa;
-  padding: 2rem 2rem;
-  margin-bottom: 2rem;
+.numeros-card, .practica-card, .resultados-card {
+  border: 1px solid #ced4da;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.video-section,
-.teoria-section,
-.carousel-section {
-  margin-bottom: 20px;
+.carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
 }
 
-.carousel img {
-  max-height: 150px;
-  object-fit: contain;
-  width: auto;
-  image-rendering: -webkit-optimize-contrast; /* Mejora la calidad de las imágenes */
+.carousel-caption h3 {
+  font-size: 1.5rem;
+  color: #343a40;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.3rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input.form-control {
+  border-radius: 0.3rem;
+  border: 1px solid #ced4da;
+  margin-bottom: 1rem;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  border-radius: 0.3rem;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .btn-primary {
+    font-size: 0.9rem;
+  }
+
+  .carousel-caption h3 {
+    font-size: 1.2rem;
+  }
 }

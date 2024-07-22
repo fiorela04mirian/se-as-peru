@@ -1,0 +1,31 @@
+.prendas-container {
+    padding: 20px;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  .carousel-item img {
+    max-height: 200px;
+    object-fit: contain;
+  }
+  
+  .list-group-item {
+    cursor: pointer;
+  }
+  
+  .list-group-item:hover {
+    background-color: #f8f9fa;
+  }
+  
+  .container {
+    max-width: 1200px;
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-item img {
+      max-height: 150px;
+    }
+  }
+  

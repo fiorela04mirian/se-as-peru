@@ -1,0 +1,38 @@
+/* src/components/Header.css */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.dark-mode {
+  background-color: #343a40;
+}
+
+.header-brand {
+  margin-right: auto;
+  padding-left: 20px; /* Adjust the value to move it a bit to the right */
+}
+
+.nav-links {
+  margin-left: auto;
+}
+
+.navbar-nav .nav-link {
+  margin-right: 15px; /* Adjust the spacing between nav links */
+}
+
+.btn-toggle {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark-mode .navbar, .dark-mode .footer {
+  background-color: #343a40;
+}
